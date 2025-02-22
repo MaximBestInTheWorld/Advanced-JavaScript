@@ -1,0 +1,31 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MaximBestInTheWorld/npm.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "max",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximBestInTheWorld/npm/issues"
+  },
+  "homepage": "https://github.com/MaximBestInTheWorld/npm#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0"
+  },
+  "dependencies": {
+    "core-js": "^3.39.0"
+  }
+}
